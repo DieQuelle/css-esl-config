@@ -1,0 +1,122 @@
+////////////////////////////////////////////////////////////
+// +----------------------------------------------------+ //
+// ¦ Electronic Sports League - The League That Matters ¦ //
+// ¦ 						        ¦ //
+// ¦           Server-Configs > Changelog	     	¦ //
+// +----------------------------------------------------+ //
+////////////////////////////////////////////////////////////
+
+[+] added [-] deleted [*] updated [N] notification [C] changed
+
+
+24.05.2008 - Version 4.0:
+=========================
+- [+] zb_doorfix 1
+- [+] zb_allowcashcalling 1
+
+
+11.02.2008 - Version 3.9.1:
+============================
+- [+] added e(sl)1on1hg.cfg 
+
+
+07.02.2008 - Version 3.9:
+============================
+- [C] TV-Settings added to e(sl)5on5eps.cfg
+- [*] tv_maxrate 0, tv_maxclients 2, tv_snapshotrate 24 in the e(sl)tv.cfg changed
+- [*] set mp_c4timer "45" to e(sl)2on2cml.cfg
+- [+] added e(sl)5on5ems.cfg
+- [+] added e(sl)5on5enc.cfg
+
+
+13.12.2007 - Version 3.8:
+=========================
+
+- [+] CML 2on2/5on5 Client/Server-Version
+
+
+01.11.2007 - Version 3.7.1:
+============================
+- [C] splitted e(sl)aml.cfg into e(sl)1on1aml.cfg and e(sl)2on2aml.cfg
+- [*] sv_pausable 1 is now default for the AML/GGL Ladders
+
+
+15.09.2007 - Version 3.7:
+===========================
+- [C] splitted e(sl)5on5.cfg into e(sl)2on2.cfg, e(sl)3on3.cfg and e(sl)5on5.cfg
+- [C] splitted e(sl)gg.cfg into e(sl)3on3ggl.cfg and e(sl)5on5ggl.cfg
+- [*] sv_pausable 1 is now default for every 2on2 and 3on3 Ladder
+- [*] set mp_fadetoblack 0 for e(sl)aml.cfg, e(sl)1on1fml.cfg and e(sl)3on3fml.cfg
+- [*] zb_matchconfig is now being reverted correctly
+
+
+16.08.2007 - Version 3.6:
+===========================
+- [+] added EPS 5on5 Settings
+- [+] added EPS Source-TV Settings
+- [*] re-added missing mp_dynamicpricing "0"
+- [C] 1on1Rush, 2on2Rush mp_roundtime "1.25"
+- [N] use the e(sl)2on2hg.cfg for the 2on2 Handgun Ladder
+- [N] In order to use the Source-TV config please enter the passwords you want to use in the relevant fields
+07.08.2007 - Version 3.5.1:
+===========================
+- [+] added GunGame-Ladder Settings
+
+25.07.2007 - Version 3.5:
+===========================
+- [+] zb_matchconfig ""
+- [+] zb_startmoney "800"
+- [+] sv_pure "2"
+- [+] sv_consistency "1"
+- [-] sv_wateraccelerate "10"
+- [-] sv_waterfriction "1"
+- [-] sv_pure_trace "0"
+- [C] sv_allow_wait_command "1" -> sv_allow_wait_command "0"
+- [C] EAS 1on1, 2on2, 5on5/ Advanced League mp_roundtime "1.75"
+- [C] 1on1, 2on2, 3on3, 5on5 Ladder mp_roundtime "2"
+- [C] 1on1, 2on2, 3on3, 5on5, 1on1Rush, 2on2Rush Ladder mp_fadetoblack "0"
+- [N] use the e(sl)5on5eas.cfg for the 5on5 Advanced League
+
+12.06.2007 - Version 3.4:
+===========================
+
+- [+] sv_pure_trace "0"
+- [+] sv_pure_kick_clients "1"
+- [+] sv_allow_wait_command "1"
+- [+] sv_allow_color_correction "0"
+- [+] zb_matchconfig ""
+- [-] sv_forcepreload "1"
+- [-] phys_* (de_nuke (Doorfix) is mandatory! Keep this in mind!)
+- [-] deleted e(sl)at.cfg
+
+25.04.2007 - Version 3.3:
+===========================
+
+- [+] added restart scripts (lo3.cfg, ko3.cfg)
+- [+] mp_playerid 0
+- [C] EAS/EPS 5on5 -> sv_pausable 0 -> 1
+- [C] sv_maxrate 25000 (lightens Server load)
+
+15.02.2007 - Version 3.2a:
+===========================
+
+- [*] mp_roundtime for EAS 1on1 and 2on2 set to "2" 
+- [*] mp_freezetime for EAS 1on1 and 2on2 set to "6" 
+
+08.02.2007 - Version 3.2:
+===========================
+
+- [+] sv_forcepreload 1 
+- [+] added Handgun-Ladder Settings 
+
+17.01.2007 - Version 3.1:
+===========================
+
+- [+] sv_client_min_interp_ratio 1.0 
+- [+] sv_client_max_interp_ratio 1.0 
+- [+] added AT-Ladder Settings 
+
+16.12.2006 - Version 3.0:
+===========================
+
+- [*] Configs completely revised
